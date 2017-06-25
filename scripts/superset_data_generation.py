@@ -1,7 +1,6 @@
 import pandas as pd
 import argparse
 import sqlalchemy
-import blaze as bz
 
 COMMUNITY_QUESTION_MAP = {"1. Have you visited your child's school in the last  month?\n (Y-1, N-0, Unaware-88, Not Answered-99)": "visit_school",
                           "2.Does the school has separate functional toilet for girls?  (Y-1, N-0, Unaware-88, Not Answered-99)": "girl_toilet",
