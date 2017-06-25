@@ -70,7 +70,7 @@ def save_to_sqlite(o, combined_data):
         True if sqlite file saved else raise error.
     '''
     engine = sqlalchemy.create_engine('sqlite:///{}'.format(o))
-    combined_data.to_sql(name='classes', if_exists='append', con=engine, chunksize=10000)
+    combined_data.to_sql(name='classes', if_exists='replace', con=engine, chunksize=10000)
     return True
 
 
