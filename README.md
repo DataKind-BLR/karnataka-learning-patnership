@@ -19,4 +19,4 @@ We are dealing with 3 data sources : -
 2. Data Analysis and Insights. Exploring how the data can be combined at different levels and how each school/gram panchayat/block/district can be compared.
    Insights related to performance of schools/students
 
-3. Exploration of feasible performance indicators to predict performance of schools, based on the data provided.
+3. Exploration of feasible performance indicators to predict performance of schools/blocks, based on the data provided.
