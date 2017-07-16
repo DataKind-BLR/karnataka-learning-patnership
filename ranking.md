@@ -1,7 +1,7 @@
 # Ranking Method
 
 The goal is to introduce a ranking methodology to create metrics that can flexibly
-combines various dimensions that might affect positively or negatively.
+combine various dimensions that might affect positively or negatively.
 
 ## Approach
 
