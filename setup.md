@@ -4,10 +4,10 @@ Setup
 Requirements
 ---------------
 
-## Python
+### Python
 - Installation Guide: https://www.python.org/about/gettingstarted/
 
-## Superset
+### Superset
 - Installation & Configuration: https://superset.incubator.apache.org/installation.html
 - Introduction Video: https://youtu.be/3Txm_nj_R7M
 
