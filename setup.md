@@ -37,8 +37,7 @@ Making your own build
 	- Note that '-p <port_number>' is an optional parameter, in the absence of which the web server defaults to the port 8088
 	- Open localhost:8088 to start using Superset
 
-	# Import Database
-	- https://superset.incubator.apache.org/tutorial.html?highlight=dashboard#connecting-to-a-new-database
+	# Add a Database
 	- Having logged into Superset, in order to import a database select from the Menu tabs the Sources > Databases option.
 	- In the list of Database page that opens, click on the '+' (Add a new database) button to configure and import a new database.
 	- In the 'Add Database' configuration page that opens. now make the following configurations:
@@ -47,11 +46,12 @@ Making your own build
 		> Click on the 'Test Connection' button to verify that the database connection is secure, if not, verify that the 'SQLAlchemy URI' is correct
 		> Check the 'Expose to SQL Lab' checkbox. This makes the database open to be queried and visualized in the SQL Lab feature of Superset
 	- Click on the 'Save' button to save changes
+	- For other databases or further documentation, please refer: https://superset.incubator.apache.org/tutorial.html?highlight=dashboard#connecting-to-a-new-database
 
 	# Creating a Dashboard
 	https://superset.incubator.apache.org/tutorial.html?highlight=dashboard#creating-a-slice-and-dashboard
 
 	# Import Dashboard
 	- Having logged into Superset, in order to import a database select from the Menu tabs the Sources > Import Dashboards option.
-	- Click on the 'Choose File' option and navigate and select to the directory containing the dashboard file.
+	- Click on the 'Choose File' option and navigate and select to the directory containing the dashboard .pickle file.
 	- Click on the 'Import' button to import the database.
