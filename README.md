@@ -20,3 +20,7 @@ We are dealing with 3 data sources : -
    Insights related to performance of schools/students
 
 3. Exploration of feasible performance indicators to predict performance of schools/blocks, based on the data provided.
+
+## Results of DataDive
+
+1. We introduced how [Superset](https://github.com/apache/incubator-superset) can be used. Superset is an open source Tool that is used for Exploratory Data Analysis. Details on how to setup superset can be found in [setup.md](setup.md)
