@@ -26,3 +26,10 @@ We are dealing with 3 data sources : -
 1. We introduced how [Superset](https://github.com/apache/incubator-superset) can be used. Superset is an open source Tool that is used for Exploratory Data Analysis. Details on how to setup and create charts/dashboards in superset can be found in [setup.md](setup.md)
 2. We created a formula to measure performance of at any of the levels (District/Block/Village/Gram Panchayat). Details on how to calculate the formula can be found in the [performance_metric.md](performance_metric.md)
 3. We introduced an algorithm that can be used to generate ranking at different levels (District/Block/Village/Gram Panchayat/School). The advantage of the algorithm is we can combine multiple metrics to generate the Ranks. More details can be found [Ranking.md](ranking.md).
+
+## Contributors
+
+    @basumpz
+    @sach211
+    @ShwetanshuSingh
+    @heaven00
